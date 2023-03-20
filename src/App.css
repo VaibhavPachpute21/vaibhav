@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --clr-primary: #050816;
+  --clr-primary-dark: #100d25;
+  --clr-dark: #151030;
+  --clr-secondary: #aaa6c3;
+  --ff-primary: 'Poppins', sans-serif;
+  --ff-mono: 'Space Mono', monospace;
+  --clr-light: #f3f3f3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  background-color:var(--clr-primary) ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+/*################################### Navbar ########################################*/
+.header {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: .3s ease-in;
+  overflow: hidden;
+  background-color:transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.activeH{
+  background-color: black;
+}
+
+.header .navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.header .nav-menu a {
+  color: #ffffff;
+}
+
+.header .navbar img {
+  width: 250px;
+  height: auto;
+}
+
+.header .nav-menu {
+  display: flex;
+}
+
+.header .nav-item {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.header .nav-item a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger i{
   color: white;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+ul{
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+a{
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width:940px) {
+  .header {
+      max-width: 100%;
+      background-color: black;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header .navbar {
+      max-width: 100%;
+  }
+
+  .hamburger {
+      display: block;
+  }
+
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 90px;
+      flex-direction: column;
+      background-color: black;
+      width: 100%;
+      height: 100vh;
+      z-index: 999;
+      text-align: center;
+      transition: .3s;
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
+
+  /* .nav-item {
+      margin: 0.1rem 0;
+  } */
+
+  .header .navbar img {
+      width: 150px;
   }
 }
+
+
+/* Navbar */
+
+
+/* Home */
+
+.home-container{
+  background-image: url('./assets/herobg.png');
+  min-height: 150vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+
+
+/* Home */
+
