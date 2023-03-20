@@ -37,16 +37,16 @@ const Navbar = () => {
                         <a href='/' link='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#' onClick={closeMenu}>Skills</a>
+                        <a href='/Skills' onClick={closeMenu}>Skills</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#' onClick={closeMenu}>Experience</a>
+                        <a href='/Experience' onClick={closeMenu}>Experience</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#' onClick={closeMenu}>Projects</a>
+                        <a href='/Projects' onClick={closeMenu}>Projects</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#' onClick={closeMenu}>Contact</a>
+                        <a href='/Contact' onClick={closeMenu}>Contact</a>
                     </li>
 
                 </ul>
