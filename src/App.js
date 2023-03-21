@@ -5,6 +5,7 @@ import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import React from 'react';
 
 function App() {
   return (
@@ -12,10 +13,10 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/Skills' element={<Skills/>}/> 
-        <Route path='/Experience' element={<Experience/>}/>
-        <Route path='/Projects' element={<Projects/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/skills' element={<Skills/>}/> 
+        <Route path='/experience' element={<Experience/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
 
     </>

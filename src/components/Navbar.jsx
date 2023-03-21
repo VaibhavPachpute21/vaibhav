@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import '../App.css'
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
     const [navColor,setNavColor]=useState(false)
 
     const changeNavColor =()=>{
-        if(window.scrollY >= 90){
+        if(window.scrollY >= 45){
             setNavColor(true)
         }
         else{
@@ -34,19 +35,19 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/' link='/' onClick={closeMenu}>Home</a>
+                        <NavLink to={'/'} onClick={closeMenu}>Home</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <a href='/Skills' onClick={closeMenu}>Skills</a>
+                        <NavLink to={'/skills'} onClick={closeMenu}>Skills</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <a href='/Experience' onClick={closeMenu}>Experience</a>
+                        <NavLink to={'/experience'} onClick={closeMenu}>Experience</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <a href='/Projects' onClick={closeMenu}>Projects</a>
+                        <NavLink to={'/projects'} onClick={closeMenu}>Projects</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <a href='/Contact' onClick={closeMenu}>Contact</a>
+                        <NavLink to={'/contact'} onClick={closeMenu}>Contact</NavLink>
                     </li>
 
                 </ul>
