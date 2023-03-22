@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="container">
         {/* <h2>myWorkExperience&#40;&#41;  &#123;</h2> */}
         <h2>&lt;WorkExperience&gt; </h2>
-        <div className="container">
+        <div className="container py-5">
           <VerticalTimeline 
           lineColor='#f3f3f3'>
             <VerticalTimelineElement

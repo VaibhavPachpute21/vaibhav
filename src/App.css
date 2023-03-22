@@ -205,12 +205,12 @@ a {
   width: 100vw;
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: top !important;  
+  background-position: top !important;
   color: #f3f3f3;
   padding: 100px 150px !important;
 }
 
-.skills-container h2{
+.skills-container h2 {
   font-size: 35px;
   /* color: #915EFF; */
   color: var(--clr-light);
@@ -223,17 +223,17 @@ a {
   height: 150px;
   border: 1px solid #f3f3f3;
   background-color: #151030;
-  border-radius: 10px; 
+  border-radius: 10px;
   padding: 5px;
   margin: 5px 10px;
 }
 
-.skills-container .row .box img{
+.skills-container .row .box img {
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
 
-.skills-container .row .box:hover{
+.skills-container .row .box:hover {
   cursor: pointer;
   border: 2px solid #915EFF;
   background-color: transparent;
@@ -242,7 +242,7 @@ a {
 /* Skills */
 
 /* Experience */
-.experience-container{
+.experience-container {
   background-image: url('./assets/herobg.png');
   min-height: 100vh;
   width: 100vw;
@@ -250,10 +250,10 @@ a {
   background-repeat: no-repeat;
   background-position: right !important;
   color: #f3f3f3;
-  padding: 100px 150px !important;  
+  padding: 100px 150px !important;
 }
 
-.experience-container h2{
+.experience-container h2 {
   font-size: 35px;
   /* color: #915EFF; */
   color: var(--clr-light);
@@ -261,13 +261,13 @@ a {
   font-weight: 400 !important;
 }
 
-.experience-container h3{
+.experience-container h3 {
   font-family: var(--ff-primary);
   font-size: 24px;
   font-weight: 500;
 }
 
-.experience-container h4{
+.experience-container h4 {
   font-family: var(--ff-mono);
   font-size: 20px;
   font-weight: 500;
@@ -275,12 +275,12 @@ a {
 
 }
 
-.experience-container p{
+.experience-container p {
   font-family: var(--ff-mono);
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date {
-  color:var(--clr-light);
+  color: var(--clr-light);
   font-size: 16px !important;
   font-family: var(--ff-mono);
 }
@@ -288,7 +288,7 @@ a {
 /* Experience */
 
 /* Projects */
-.projects-container{
+.projects-container {
   background-image: url('./assets/herobg.png');
   min-height: 100vh;
   width: 100vw;
@@ -296,11 +296,11 @@ a {
   background-repeat: no-repeat;
   background-position: left !important;
   color: #f3f3f3;
-  padding: 100px 150px !important;  
-  
+  padding: 100px 150px !important;
+
 }
 
-.projects-container h2{
+.projects-container h2 {
   font-size: 35px;
   /* color: #915EFF; */
   color: var(--clr-light);
@@ -308,33 +308,33 @@ a {
   font-weight: 400 !important;
 }
 
-.projects-container .projectBox{
+.projects-container .projectBox {
   background-color: var(--clr-dark);
   padding: 10px;
   border: #050816 2px solid;
   border-radius: 15px;
 }
 
-.projects-container .projectBox img{
+.projects-container .projectBox img {
   border-radius: 10px;
   width: 100%;
   padding: 2px;
   margin-bottom: 10px;
 }
 
-.projects-container .projectBox h3{
+.projects-container .projectBox h3 {
   font-family: var(--ff-primary);
   font-size: 24px;
   color: var(--clr-light);
 }
 
-.projects-container .projectBox p{
+.projects-container .projectBox p {
   font-family: var(--ff-mono);
   font-size: 20px;
   color: var(--clr-secondary);
 }
 
-.projects-container .projectBox .btn{
+.projects-container .projectBox .btn {
   background-color: transparent;
   border: 2px solid var(--clr-secondary);
   color: var(--clr-light);
@@ -342,7 +342,7 @@ a {
   font-family: var(--ff-mono);
 }
 
-.projects-container .projectBox .btn:hover{
+.projects-container .projectBox .btn:hover {
   background-color: #915EFF;
   border: 2px solid #915EFF;
   color: var(--clr-light);
@@ -353,7 +353,7 @@ a {
 /* Projects */
 
 /* Contact */
-.contact-container{
+.contact-container {
   background-image: url('./assets/herobg.png');
   min-height: 100vh;
   width: 100vw;
@@ -361,7 +361,7 @@ a {
   background-repeat: no-repeat;
   background-position: center !important;
   color: #f3f3f3;
-  padding: 100px 150px !important; 
+  padding: 100px 150px !important;
   display: flex;
   vertical-align: middle !important;
 }
@@ -373,24 +373,25 @@ a {
   color: #f3f3f3;
 }
 
-.contact-container .formBox{
+.contact-container .formBox {
   border: 1px solid #f3f3f3;
   border-radius: 10px;
   padding: 30px;
   background-color: var(--clr-primary-dark);
 }
 
-.contact-container .formBox input ,.contact-container .formBox textarea {
+.contact-container .formBox input,
+.contact-container .formBox textarea {
   font-family: var(--ff-mono);
   border: 2px solid var(--clr-light);
   background-color: var(--clr-dark);
   margin: 10px 0px;
   color: var(--clr-light);
-  font-size:18px;
+  font-size: 18px;
 }
 
 
-.contact-container .formBox .btn{
+.contact-container .formBox .btn {
   background-color: transparent;
   border: 2px solid var(--clr-secondary);
   color: var(--clr-light);
@@ -398,7 +399,7 @@ a {
   font-family: var(--ff-mono);
 }
 
-.contact-container .formBox .btn:hover{
+.contact-container .formBox .btn:hover {
   background-color: #915EFF;
   border: 2px solid #915EFF;
   color: var(--clr-light);
@@ -406,8 +407,223 @@ a {
   font-family: var(--ff-mono);
 }
 
-
-
 /* Contact */
 
 
+/*for mobile*/
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    background-color: var(--clr-primary);
+  }
+
+  .home-container {
+    /* background-image: url('./assets/herobg.png'); */
+    min-height: 100vh;
+    width: 100vw;
+    background-size: auto;
+    color: #f3f3f3;
+    padding: 90px 15px !important;
+  }
+
+  .home-container h1 {
+    font-family: var(--ff-primary);
+    color: var(--clr-light);
+    font-weight: 700;
+    font-size: 45px !important;
+  }
+
+  .home-container h1 span {
+    font-family: var(--ff-primary);
+    color: #915EFF;
+    font-size: 45px !important;
+  }
+
+  .home-container h2 {
+    font-family: var(--ff-mono);
+    font-weight: 600;
+    font-size: 25px;
+    color: #f3f3f3;
+  }
+
+  .home-container h2 span {
+    color: #915EFF;
+  }
+
+  /* Skills */
+  .skills-container {
+    background-image: url('./assets/herobg.png');
+    min-height: 100vh;
+    width: 100vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top !important;
+    color: #f3f3f3;
+    padding: 100px 15px !important;
+    display: flex;
+    vertical-align: middle !important;
+  }
+
+  .skills-container h2 {
+    font-size: 35px;
+    /* color: #915EFF; */
+    color: var(--clr-light);
+    font-family: var(--ff-mono);
+    font-weight: 400 !important;
+  }
+
+  .skills-container .row .box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f3f3f3;
+    background-color: #151030;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 10px;
+  }
+
+  /* experience */
+
+  .experience-container {
+    background-image: url('./assets/herobg.png');
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right !important;
+    color: #f3f3f3;
+    padding: 100px 15px !important;
+  }
+
+  .experience-container h2 {
+    font-size: 35px;
+    /* color: #915EFF; */
+    color: var(--clr-light);
+    font-family: var(--ff-mono);
+    font-weight: 400 !important;
+  }
+
+  .experience-container h3 {
+    font-family: var(--ff-primary);
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .experience-container h4 {
+    font-family: var(--ff-mono);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+
+  }
+
+  .experience-container p {
+    font-family: var(--ff-mono);
+  }
+
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: var(--clr-light);
+    font-size: 16px !important;
+    font-family: var(--ff-mono);
+  }
+
+  /* projects */
+  .projects-container {
+    background-image: url('./assets/herobg.png');
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left !important;
+    color: #f3f3f3;
+    padding: 100px 10px !important;
+
+  }
+
+
+  .projects-container .projectBox h3 {
+    font-family: var(--ff-primary);
+    font-size: 22px;
+    color: var(--clr-light);
+  }
+
+  .projects-container .projectBox p {
+    font-family: var(--ff-mono);
+    font-size: 16px;
+    color: var(--clr-secondary);
+  }
+
+  .projects-container .projectBox .btn {
+    background-color: transparent;
+    border: 2px solid var(--clr-secondary);
+    color: var(--clr-light);
+    font-size: 16px;
+    padding: 3px 4px;
+    border-radius: 5px;
+    font-family: var(--ff-mono);
+  }
+
+  .projects-container .projectBox .btn:hover {
+    background-color: #915EFF;
+    border: 2px solid #915EFF;
+    color: var(--clr-light);
+    font-size: 18px;
+    font-family: var(--ff-mono);
+  }
+
+  
+/* Contact */
+.contact-container{
+  background-image: url('./assets/herobg.png');
+  min-height: 100vh;
+  width: 100vw;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  color: #f3f3f3;
+  padding: 100px 5px !important; 
+  display: flex;
+  vertical-align: middle !important;
+}
+
+.contact-container h2 {
+  font-family: var(--ff-mono);
+  font-weight: 600;
+  font-size: 35px;
+  color: #f3f3f3;
+}
+
+.contact-container .formBox{
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--clr-primary-dark);
+}
+
+
+}
+
+
+/*for tabs*/
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: #de3163;
+  }
+}
+
+/*for laptops*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: red;
+  }
+}
+
+/*for desktops*/
+@media screen and (min-width: 1025px) {
+  body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    background-color: var(--clr-primary);
+  }
+}

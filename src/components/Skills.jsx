@@ -9,7 +9,7 @@ const Skills = () => {
         {/* <h2>mySkills&#40;&#41;  &#123;</h2> */}
         <h2>&lt;MySkills&gt; </h2>
 
-        <div className="container">
+        <div className="container d-flex  align-items-center">
           <div className="row py-md-5">
             <div className="box"><img src={require("../assets/tech/html.png")} alt="html" title="html" /></div>
             <div className="box"><img src={require("../assets/tech/css.png")} alt="css" title="css"/></div>
