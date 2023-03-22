@@ -374,8 +374,34 @@ a {
   border-radius: 10px;
   padding: 30px;
   background-color: var(--clr-primary-dark);
-
 }
+
+.contact-container .formBox input ,.contact-container .formBox textarea {
+  font-family: var(--ff-mono);
+  border: 2px solid var(--clr-light);
+  background-color: var(--clr-dark);
+  margin: 10px 0px;
+  color: var(--clr-light);
+  font-size:18px;
+}
+
+
+.contact-container .formBox .btn{
+  background-color: transparent;
+  border: 2px solid var(--clr-secondary);
+  color: var(--clr-light);
+  font-size: 18px;
+  font-family: var(--ff-mono);
+}
+
+.contact-container .formBox .btn:hover{
+  background-color: #915EFF;
+  border: 2px solid #915EFF;
+  color: var(--clr-light);
+  font-size: 18px;
+  font-family: var(--ff-mono);
+}
+
 
 
 /* Contact */
