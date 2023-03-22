@@ -203,7 +203,9 @@ a {
   background-image: url('./assets/herobg.png');
   min-height: 100vh;
   width: 100vw;
-  background-position: top !important;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top !important;  
   color: #f3f3f3;
   padding: 90px 150px !important;
 }
@@ -281,5 +283,101 @@ a {
   font-family: var(--ff-mono);
 }
 
-
 /* Experience */
+
+/* Projects */
+.projects-container{
+  background-image: url('./assets/herobg.png');
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left !important;
+  color: #f3f3f3;
+  padding: 90px 150px !important;  
+  
+}
+
+.projects-container h2{
+  font-size: 35px;
+  /* color: #915EFF; */
+  color: var(--clr-light);
+  font-family: var(--ff-mono);
+  font-weight: 400 !important;
+}
+
+.projects-container .projectBox{
+  background-color: var(--clr-dark);
+  padding: 10px;
+  border: #050816 2px solid;
+  border-radius: 15px;
+}
+
+.projects-container .projectBox img{
+  border-radius: 10px;
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.projects-container .projectBox h3{
+  font-family: var(--ff-primary);
+  font-size: 24px;
+  color: var(--clr-light);
+}
+
+.projects-container .projectBox p{
+  font-family: var(--ff-mono);
+  font-size: 20px;
+  color: var(--clr-secondary);
+}
+
+.projects-container .projectBox .btn{
+  background-color: transparent;
+  border: 2px solid var(--clr-secondary);
+  color: var(--clr-light);
+  font-size: 18px;
+  font-family: var(--ff-mono);
+}
+
+.projects-container .projectBox .btn:hover{
+  background-color: #915EFF;
+  border: 2px solid #915EFF;
+  color: var(--clr-light);
+  font-size: 18px;
+  font-family: var(--ff-mono);
+}
+
+/* Projects */
+
+/* Contact */
+.contact-container{
+  background-image: url('./assets/herobg.png');
+  min-height: 100vh;
+  width: 100vw;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  color: #f3f3f3;
+  padding: 90px 150px !important; 
+}
+
+.contact-container h2 {
+  font-family: var(--ff-mono);
+  font-weight: 600;
+  font-size: 45px;
+  color: #f3f3f3;
+}
+
+.contact-container .formBox{
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--clr-primary-dark);
+
+}
+
+
+/* Contact */
+
+
