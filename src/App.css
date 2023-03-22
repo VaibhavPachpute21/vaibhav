@@ -179,7 +179,7 @@ a {
   color: #915EFF;
 }
 
-.home-container button {
+.home-container .btn {
   background-color: transparent;
   border: 2px solid var(--clr-secondary);
   color: var(--clr-light);
@@ -187,7 +187,7 @@ a {
   font-family: var(--ff-mono);
 }
 
-.home-container button:hover {
+.home-container .btn:hover {
   background-color: #915EFF;
   border: 2px solid #915EFF;
   color: var(--clr-light);
@@ -207,12 +207,13 @@ a {
   background-repeat: no-repeat;
   background-position: top !important;  
   color: #f3f3f3;
-  padding: 90px 150px !important;
+  padding: 100px 150px !important;
 }
 
 .skills-container h2{
   font-size: 35px;
-  color: #915EFF;
+  /* color: #915EFF; */
+  color: var(--clr-light);
   font-family: var(--ff-mono);
   font-weight: 400 !important;
 }
@@ -234,7 +235,7 @@ a {
 
 .skills-container .row .box:hover{
   cursor: pointer;
-  border: 1px solid #915EFF;
+  border: 2px solid #915EFF;
   background-color: transparent;
 }
 
@@ -249,12 +250,13 @@ a {
   background-repeat: no-repeat;
   background-position: right !important;
   color: #f3f3f3;
-  padding: 90px 150px !important;  
+  padding: 100px 150px !important;  
 }
 
 .experience-container h2{
   font-size: 35px;
-  color: #915EFF;
+  /* color: #915EFF; */
+  color: var(--clr-light);
   font-family: var(--ff-mono);
   font-weight: 400 !important;
 }
@@ -294,7 +296,7 @@ a {
   background-repeat: no-repeat;
   background-position: left !important;
   color: #f3f3f3;
-  padding: 90px 150px !important;  
+  padding: 100px 150px !important;  
   
 }
 
@@ -359,7 +361,9 @@ a {
   background-repeat: no-repeat;
   background-position: center !important;
   color: #f3f3f3;
-  padding: 90px 150px !important; 
+  padding: 100px 150px !important; 
+  display: flex;
+  vertical-align: middle !important;
 }
 
 .contact-container h2 {

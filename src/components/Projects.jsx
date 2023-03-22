@@ -23,7 +23,7 @@ const Projects = () => {
                       <p>{project.description}</p>
                       <div className="row">
                         <div className='col'>
-                          {project.demoLink != null ? <Link className='btn' target='_blank' to={project.demoLink}>View Demo</Link> : <></>}
+                          {project.demoLink != null ? <Link className='btn' target='_blank' rel='noreferrer' to={project.demoLink}>View Demo</Link> : <></>}
                         </div>
                         <div className='col'>
                           <Link className='btn' target='_blank' to={project.souce_code}>View Source</Link>

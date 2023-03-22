@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { Typewriter } from 'react-simple-typewriter'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -24,12 +25,12 @@ const Home = () => {
         </span></h2>
         <div>
           <span>
-            <a href="https://github.com/VaibhavPachpute21/"> <BsGithub size={35} color="white" /></a>&nbsp;&nbsp; &nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/vaibhavpachpute/"><BsLinkedin size={35} color="white" /></a>
+            <a href="https://github.com/VaibhavPachpute21/" target='_blank' rel='noreferrer'> <BsGithub size={35} color="white" /></a>&nbsp;&nbsp; &nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/vaibhavpachpute/" target='_blank' rel='noreferrer'><BsLinkedin size={35} color="white" /></a>
           </span>
         </div>
 
-        <button className='btn mt-3'>Get In Touch</button>
+        <Link className='btn mt-3' to={'/contact'} >Get In Touch</Link>
       </div>
 
     </div>

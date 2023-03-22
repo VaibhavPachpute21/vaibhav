@@ -6,7 +6,8 @@ const Skills = () => {
   return (
     <div className="skills-container">
       <div className="container">
-        <h2>mySkills&#40;&#41;  &#123;</h2>
+        {/* <h2>mySkills&#40;&#41;  &#123;</h2> */}
+        <h2>&lt;MySkills&gt; </h2>
 
         <div className="container">
           <div className="row py-md-5">
@@ -24,7 +25,8 @@ const Skills = () => {
             <div className="box"><img src={require("../assets/tech/WordPress.png")} alt="wordpress" title="wordpress" /></div>
           </div>
         </div>
-        <h2>&#125;</h2>
+        <h2>&lt;MySkills&gt; </h2>
+        {/* <h2>&#125;</h2> */}
       </div>
     </div>
   )

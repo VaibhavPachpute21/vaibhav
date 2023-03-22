@@ -7,7 +7,8 @@ const Experience = () => {
   return (
     <div className='experience-container'>
       <div className="container">
-        <h2>myWorkExperience&#40;&#41;  &#123;</h2>
+        {/* <h2>myWorkExperience&#40;&#41;  &#123;</h2> */}
+        <h2>&lt;WorkExperience&gt; </h2>
         <div className="container">
           <VerticalTimeline 
           lineColor='#f3f3f3'>
@@ -61,7 +62,8 @@ const Experience = () => {
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
-        <h2>&#125;</h2>
+        <h2>&lt;/WorkExperience&gt; </h2>
+        {/* <h2>&#125;</h2> */}
 
       </div>
 
