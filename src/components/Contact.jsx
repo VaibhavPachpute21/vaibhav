@@ -26,7 +26,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await emailjs.send('service_s6jo5hw', 'template_32fonqn',
+    await emailjs.send('SERVICE_ID', 'TEMPLATE_ID',
       {
         from_name: form.name,
         to_name: 'Vaibhav',
