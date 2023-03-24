@@ -1,4 +1,5 @@
-import React, { useState,useRef } from 'react'
+import React, { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
@@ -23,12 +24,28 @@ const Contact = () => {
 
 
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(form)
+    await emailjs.send('SERVICE_ID', 'TEMPLATE_ID',
+      {
+        from_name: form.name,
+        to_name: 'Vaibhav',
+        from_email: form.email,
+        to_email: 'vpachpute22@gmail.com',
+        message: form.message,
+        subject: form.subject
+      },
+      `${process.env.PUBLIC_KEY}}`)
+      .then((result) => {
+        alert('Thank you. I will get back to you as soon as possible.')
+      }, (error) => {
+        alert('Something went wrong.')
+      });
+
     setForm({
       name: "",
       email: "",
+      subject: "",
       message: "",
     });
 
@@ -39,9 +56,9 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <div className="container d-flex align-items-center justify-content-center">
-        <form className="formBox" 
-        ref={formRef}
-        onSubmit={handleSubmit}
+        <form className="formBox"
+          ref={formRef}
+          onSubmit={handleSubmit}
         >
           <h2>&lt; Contact Me /&gt; </h2>
           <div ><input className='form-control' type="text" placeholder='Name' name='name' value={form.name} onChange={handleChange} /></div>
