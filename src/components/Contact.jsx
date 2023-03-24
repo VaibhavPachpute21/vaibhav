@@ -35,7 +35,7 @@ const Contact = () => {
         message: form.message,
         subject: form.subject
       },
-      `${process.env.PUBLIC_KEY}}`)
+      'PUBLIC_KEY')
       .then((result) => {
         alert('Thank you. I will get back to you as soon as possible.')
       }, (error) => {
