@@ -26,7 +26,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await emailjs.send('SERVICE_ID', 'TEMPLATE_ID',
+    await emailjs.send('service_s6jo5hw', 'template_32fonqn',
       {
         from_name: form.name,
         to_name: 'Vaibhav',
@@ -35,7 +35,7 @@ const Contact = () => {
         message: form.message,
         subject: form.subject
       },
-      `${process.env.PUBLIC_KEY}}`)
+      'PUBLIC_KEY')
       .then((result) => {
         alert('Thank you. I will get back to you as soon as possible.')
       }, (error) => {
