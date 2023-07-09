@@ -61,10 +61,10 @@ const Contact = () => {
           onSubmit={handleSubmit}
         >
           <h2>&lt; Contact Me /&gt; </h2>
-          <div ><input className='form-control' type="text" placeholder='Name' name='name' value={form.name} onChange={handleChange} /></div>
-          <div><input className='form-control' type="email" placeholder='Email' name='email' value={form.email} onChange={handleChange} /></div>
-          <div><input className='form-control' type="text" placeholder='Subject' name='subject' value={form.subject} onChange={handleChange} /></div>
-          <div><textarea className='form-control' placeholder='Message' name="message" value={form.message} onChange={handleChange} cols="30" rows="5"></textarea></div>
+          <div ><input className='form-control' type="text" placeholder='Name' name='name' value={form.name} onChange={handleChange} required={true} /></div>
+          <div><input className='form-control' type="email" placeholder='Email' name='email' value={form.email} onChange={handleChange} required={true}/></div>
+          <div><input className='form-control' type="text" placeholder='Subject' name='subject' value={form.subject} onChange={handleChange} required={true}/></div>
+          <div><textarea className='form-control' placeholder='Message' name="message" value={form.message} onChange={handleChange} cols="30" rows="5" required={true}></textarea></div>
           <div><button className='btn' type='submit' onClick={handleSubmit}>Send</button></div>
         </form>
       </div>

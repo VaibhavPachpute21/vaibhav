@@ -313,6 +313,13 @@ a {
   padding: 10px;
   border: #050816 2px solid;
   border-radius: 15px;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.projects-container .projectBox:hover{
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .projects-container .projectBox img {
