@@ -6,11 +6,22 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import React from 'react';
+import { ToastContainer } from 'react-toastify'; 
 
 function App() {
   return (
     <>
       <Navbar/>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        />
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/skills' element={<Skills/>}/> 

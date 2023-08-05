@@ -1,5 +1,7 @@
 import React, { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import {toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -26,30 +28,50 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await emailjs.send('SERVICE_ID', 'TEMPLATE_ID',
-      {
+  
+    if (!formRef.current.reportValidity()) {
+      return;
+    }
+    const trimmedForm = {
+      name: form.name.trim(),
+      email: form.email.trim(),
+      subject: form.subject.trim(),
+      message: form.message.trim()
+    };
+  
+    if (
+      trimmedForm.name === "" ||
+      trimmedForm.email === "" ||
+      trimmedForm.subject === "" ||
+      trimmedForm.message === ""
+    ) {
+      toast.error('Plsease fill all fields!');
+      return;
+    }
+  
+    try {
+      await emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, {
         from_name: form.name,
         to_name: 'Vaibhav',
         from_email: form.email,
         to_email: 'vpachpute22@gmail.com',
         message: form.message,
         subject: form.subject
-      },
-      'PUBLIC_KEY')
-      .then((result) => {
-        alert('Thank you. I will get back to you as soon as possible.')
-      }, (error) => {
-        alert('Something went wrong.')
+      }, process.env.REACT_APP_PUBLIC_KEY);
+  
+      toast.success('Message sent! I will get back to you soon.!');
+  
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
       });
-
-    setForm({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
-
+    } catch (error) {
+      toast.error('Something went wrong!');
+    }
   };
+  
 
 
 
