@@ -59,7 +59,7 @@ const Contact = () => {
         subject: form.subject
       }, process.env.REACT_APP_PUBLIC_KEY);
   
-      toast.success('Message sent! I will get back to you soon.!');
+      toast.success('Message sent! I will get back to you soon!');
   
       setForm({
         name: "",

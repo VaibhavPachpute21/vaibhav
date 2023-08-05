@@ -55,6 +55,13 @@
             color: #915EFF;
             font-size: 65px !important;
         }
+
+        .home-container h1 span{
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;;
+            color: #915EFF;
+            font-size: 65px !important;
+        }
     </style>
 </head>
 
@@ -63,8 +70,27 @@
     <div class="home-container">
         <h1>URL NOT FOUND</h1>
         <h1>Click <span><a href="https://vaibhavpachpute.me/">Here</a></span> to visit Home</h1>
+        <h1>Redirecting in <span id="countdown">10</span> seconds...</h1>
     </div>
 </div>
+
+<script>
+    function countdown() {
+        var seconds = 10;
+        var countdownElement = document.getElementById("countdown");
+
+        var countdownInterval = setInterval(function () {
+            seconds--;
+            countdownElement.innerText = seconds;
+
+            if (seconds === 0) {
+                clearInterval(countdownInterval);
+                window.location.href = "https://vaibhavpachpute.me/";
+            }
+        }, 1000);
+    }
+    window.onload = countdown;
+</script>
 
 </body>
 
