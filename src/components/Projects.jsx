@@ -21,11 +21,11 @@ const Projects = () => {
                       <img src={project.thumbnail} width={'100%'} height={'200px'} alt="" />
                       <h3>{project.title}</h3>
                       <p>{project.description}</p>
-                      <div className="row">
-                        <div className='col'>
+                      <div className="d-flex flex-row justify-content-between">
+                        <div className=''>
                           {project.demoLink != null ? <Link className='btn' target='_blank' rel='noreferrer' to={project.demoLink}>View Demo</Link> : <></>}
                         </div>
-                        <div className='col'>
+                        <div className=''>
                           <Link className='btn' target='_blank' to={project.souce_code}>View Source</Link>
                         </div>
                       </div>
