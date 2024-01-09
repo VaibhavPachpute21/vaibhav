@@ -4,10 +4,17 @@ import UrlShortner from '../assets/projects/URL-Shortner.png';
 import Workful from '../assets/projects/workful.jpg';
 import Krishi from '../assets/projects/Krishi.png'
 import QuickShare from '../assets/projects/quickshare.png'
+import EduMitra from '../assets/projects/EduMitra.png'
 
 
 
 const myProjects = [
+    {
+        "title": "EduMitra",
+        "description": "EduMitra is online centralized platform for projects undertaken by students from different colleges. ",
+        "souce_code": "https://github.com/VaibhavPachpute21/EduMitra",
+        "thumbnail":EduMitra,
+    },
     {
         "title": "krishi Dashboard",
         "description": "It's a HTML/CSS based platform for farmers to access and manage their agricultural products, orders, and sales.",
