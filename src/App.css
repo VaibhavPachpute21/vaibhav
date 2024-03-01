@@ -417,6 +417,21 @@ a {
 /* Contact */
 
 
+/* Bi Dashboards */
+.dashboard-container h2{
+  font-family: var(--ff-primary);
+  font-size: 25px;
+}
+
+.dashboard-container p{
+  font-family: var(--ff-mono);
+}
+iframe.dashboard{
+  height: 700px;
+  width: 100%;
+}
+/* Bi Dashboards */
+
 /*for mobile*/
 @media only screen and (max-width: 480px) {
   body {
@@ -607,7 +622,11 @@ a {
     padding: 10px;
     background-color: var(--clr-primary-dark);
   }
-
+/* Dashboard */
+iframe.dashboard{
+  height: 400px;
+  width: 100%;
+}
 
 }
 
