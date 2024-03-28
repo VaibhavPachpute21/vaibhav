@@ -19,6 +19,7 @@ const Skills = () => {
             <div className="box"><img src={require("../assets/tech/nodejs.png")} alt="nodejs" title="nodeJs" /></div>
             <div className="box"><img src={require("../assets/tech/ExpressJs.png")} alt="expresJs" title="expressJs" /></div>
             <div className="box"><img src={require("../assets/tech/Bootstrap.png")} alt="boostrap" title="bootstrap" /></div>
+            <div className="box"><img src={require("../assets/tech/Python.png")} alt="Python" title="Python" /></div>
             <div className="box"><img src={require("../assets/tech/redux.png")} alt="redux" title="redux" /></div>
             <div className="box"><img src={require("../assets/tech/git.png")} alt="git" title="git" /></div>
             <div className="box"><img src={require("../assets/tech/Flutter.png")} alt="flutter" title="Flutter" /></div>

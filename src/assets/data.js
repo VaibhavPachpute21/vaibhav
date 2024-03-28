@@ -5,6 +5,7 @@ import Workful from '../assets/projects/workful.jpg';
 import Krishi from '../assets/projects/Krishi.png'
 import QuickShare from '../assets/projects/quickshare.png'
 import EduMitra from '../assets/projects/EduMitra.png'
+import Kitchen from '../assets/projects/Kitchen.png'
 
 
 
@@ -13,7 +14,15 @@ const myProjects = [
         "title": "EduMitra",
         "description": "EduMitra is online centralized platform for projects undertaken by students from different colleges. ",
         "souce_code": "https://github.com/VaibhavPachpute21/EduMitra",
+        "demoLink": "https://edu-mitra.onrender.com/",
         "thumbnail":EduMitra,
+    },
+    {
+        "title": "Mamma's Kitchen",
+        "description": "It's mobile responsive ReactJS recipe app template to showcase recipes, this contains stylish components to showcaese recipes.",
+        "souce_code": "https://github.com/VaibhavPachpute21/MammasKitchen",
+        "demoLink": "https://mammas-kitchen.onrender.com/",
+        "thumbnail":Kitchen,
     },
     {
         "title": "krishi Dashboard",
@@ -33,7 +42,7 @@ const myProjects = [
         "title": "Workful-Chrome extension",
         "description": "This is a chrome extension made with react. I has weather app it greet us with random quote and you can add your task.",
         "souce_code": "https://github.com/VaibhavPachpute21/Workful-One-stop-extension",
-        "demoLink": null,
+        "demoLink": "https://github.com/VaibhavPachpute21/Workful-One-stop-extension/tree/main/dist",
         "thumbnail":Workful,
     },
     {

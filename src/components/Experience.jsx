@@ -16,7 +16,7 @@ const Experience = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: '#151030', color: '#f3f3f3', borderRight: '2px solid  #aaa6c3' }}
               contentArrowStyle={{ borderRight: '10px solid  #aaa6c3' }}
-              date="Sept 2022 - Present"
+              date="Sept 2022 - Feb 2024"
               iconStyle={{ background: '#100d25', color: '#fff' }}
               icon={<SiOnlyoffice />}
             >

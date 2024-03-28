@@ -27,7 +27,7 @@ const Home = () => {
           <span>
             <a href="https://github.com/VaibhavPachpute21/" target='_blank' rel='noreferrer'> <BsGithub size={35} color="white" /></a>&nbsp;&nbsp; &nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/vaibhavpachpute/" target='_blank' rel='noreferrer'><BsLinkedin size={35} color="white" /></a>&nbsp;&nbsp; &nbsp;&nbsp;
-            <a href="https://vaibhavpachpute.me/VaibhavResume.pdf" target='_blank' rel='noreferrer'><BsFileEarmarkPdfFill size={35} color="white" /></a>
+            <a href="https://drive.google.com/file/d/1EEA3_uNodt-38Zeg3G7gr4LDhtpmS_2s/view?usp=sharing" target='_blank' rel='noreferrer'><BsFileEarmarkPdfFill size={35} color="white" /></a>
           </span>
         </div>
 
