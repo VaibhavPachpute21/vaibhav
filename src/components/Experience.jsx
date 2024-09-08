@@ -20,12 +20,25 @@ const Experience = () => {
               iconStyle={{ background: '#100d25', color: '#fff' }}
               icon={<SiOnlyoffice />}
             >
+              <h3 className="vertical-timeline-element-title">Software Developer</h3>
+              <h4 className="vertical-timeline-element-subtitle">Catseye Systems & Solutions Pvt. Ltd.</h4>
+              <p>Devloping and Delivering scalable software solutions. Working with top notch technologies like Python, Go, React & React-Navive, Spring-Boot etc.</p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: '#151030', color: '#f3f3f3', borderRight: '2px solid  #aaa6c3' }}
+              contentArrowStyle={{ borderRight: '10px solid  #aaa6c3' }}
+              date="Sept 2022 - Feb 2024"
+              iconStyle={{ background: '#100d25', color: '#fff' }}
+              icon={<SiOnlyoffice />}
+            >
               <h3 className="vertical-timeline-element-title">Web Developer</h3>
               <h4 className="vertical-timeline-element-subtitle">City & Talent</h4>
               <p>To create web pages and sections for websites and making them responsive.
                 Managing website optimization.
                 Performing website audits.
-                To implement the changes received from client-side</p>
+                To implement the changes received from client-side.</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
