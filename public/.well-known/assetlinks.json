@@ -1,0 +1,14 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bgfa",
+      "sha256_cert_fingerprints": [
+        "80:69:71:38:06:E6:DE:1B:23:E2:9F:25:0E:DF:7D:D6:6A:50:F1:29:09:2A:F1:05:E1:01:5A:6E:B7:25:76:B7",
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "E4:7A:8D:42:28:4C:12:DA:CC:15:32:81:A4:A8:48:EA:1B:18:D8:16:4C:D7:8F:B2:B0:84:12:52:14:6D:66:0D"
+      ]
+    }
+  }
+]
